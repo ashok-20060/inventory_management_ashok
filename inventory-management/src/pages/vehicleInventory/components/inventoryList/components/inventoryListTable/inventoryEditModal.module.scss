@@ -1,0 +1,55 @@
+.title {
+color: white;
+font-size: xx-large;
+background-color: #212124;
+}
+
+.name {
+color: white;
+}
+
+.label{
+    color: white;  
+    font-size: small;
+}
+
+.modelRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.inputWrapper {
+    flex-grow: 1;
+}
+
+.input {
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #555563;
+    border-bottom-color: #555563;
+    border-right-color: #555563;
+
+}
+
+.modalBtn {
+    color: yellow;
+    background-color: #555563;
+}
+
+:global(.ant-modal-content) {
+    background-color: #212124 !important;
+}
+
+:global(.ant-modal-footer) {
+    margin-top: 20px !important;
+    background-color: #212124 !important;
+}
+
+:global(.ant-modal-close){
+    color: yellow !important;
+    background-color: #555563;
+}

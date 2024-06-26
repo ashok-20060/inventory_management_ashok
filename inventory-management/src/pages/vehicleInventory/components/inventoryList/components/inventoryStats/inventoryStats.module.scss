@@ -1,0 +1,25 @@
+.statList{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statCard{
+    background-color: #243325;
+    padding: 30px 20px;
+    flex-grow: 1;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.statCardLabel{
+    font-size: small;
+}
+
+.statCardValue{
+    margin-top: 5px;
+    font-size:x-large;
+    font-weight:bold;
+}
